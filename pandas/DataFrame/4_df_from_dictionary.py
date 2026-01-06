@@ -13,3 +13,6 @@ dic_1 = { "Names": ['Prajwal','Kavya','Sundar','Suma'],
        "Class": ["A" , 'B','C','D' ]}
 
 
+df_2 = pd.DataFrame(dic_1,index = ["roll_no_1","roll_no_2","roll_no_3","roll_no_4"])
+
+print('\n',df_2,'\n')
